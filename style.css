@@ -6,7 +6,6 @@ body {
 }
 
 
-/* NOTIFICATION */
 
 .notification {
     position: fixed;
@@ -29,7 +28,6 @@ body {
 }
 
 
-/* TOP NAVBAR */
 
 #topNavbar {
     display: flex;
@@ -60,8 +58,6 @@ body {
 }
 
 
-/* NAV LINKS (DESKTOP) */
-
 .nav-links-row {
     display: flex;
     list-style: none;
@@ -91,7 +87,6 @@ body {
 }
 
 
-/* HAMBURGER */
 
 .hamburger {
     display: none;
@@ -101,7 +96,6 @@ body {
 }
 
 
-/* DARK MODE TOGGLE BUTTON */
 
 .theme-toggle {
     background: #e5e7eb;
@@ -118,7 +112,6 @@ body {
 }
 
 
-/* SIDE NAVBAR */
 
 .sidenav {
     position: fixed;
@@ -154,8 +147,6 @@ body {
 }
 
 
-/* CLOSE BUTTON */
-
 .sidenav .closebtn {
     position: absolute;
     top: 0px;
@@ -188,14 +179,12 @@ body.dark {
 }
 
 
-/* Navbar */
 
 body.dark #topNavbar {
     background: #020617;
 }
 
 
-/* Brand */
 
 body.dark .brand {
     color: #60a5fa;
@@ -206,7 +195,6 @@ body.dark .brand-logo {
 }
 
 
-/* Nav links */
 
 body.dark .nav-links-row a {
     color: #e5e7eb;
@@ -218,21 +206,18 @@ body.dark .nav-links-row a:hover {
 }
 
 
-/* Active link */
 
 body.dark .nav-item.active {
     background: #3b82f6;
 }
 
 
-/* Sidebar */
 
 body.dark .sidenav {
     background: #020617;
 }
 
 
-/* Toggle button */
 
 body.dark .theme-toggle {
     background: #1e293b;
@@ -283,3 +268,4 @@ body.dark .theme-toggle {
         transform: rotate(360deg);
     }
 }
+
